@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agriboard"
+version = "0.1.0"
+description = ""
+authors = ["Yasuto1218 <94950313+Yasuto1218@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.41.1"
+pandas = "^2.2.3"
+numpy = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
